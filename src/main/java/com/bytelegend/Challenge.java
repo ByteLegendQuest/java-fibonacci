@@ -13,10 +13,9 @@ public class Challenge {
     // ...
     // fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)
     public static int fibonacci(int n) {
-        int sum = 0;
-        for(;n >= 0;n--){
-            sum += n;
+        if(n==1||n==0){
+            return n;
         }
-        return sum;
+        return fibonacci(n-2)+fibonacci(n-1);
     }
 }
