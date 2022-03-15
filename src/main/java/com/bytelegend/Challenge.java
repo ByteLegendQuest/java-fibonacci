@@ -13,6 +13,6 @@ public class Challenge {
     // ...
     // fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)
     public static int fibonacci(int n) {
-        return n >= 2 ? fibonacci(n - 1) + fibonacci(n - 2) : n;
+        return 0;
     }
 }
