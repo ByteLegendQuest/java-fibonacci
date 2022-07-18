@@ -1,7 +1,7 @@
 package com.bytelegend;
 
 public class Challenge {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(fibonacci(1));
         System.out.println(fibonacci(1));
     }
@@ -13,10 +13,6 @@ public class Challenge {
     // ...
     // fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)
     public static int fibonacci(int n) {
-        if(n == 0||n == 1){
-            return n;
-        }else {
-            return fibonacci(n - 1) + fibonacci(n - 2);
-        }
+        return 0;
     }
 }
