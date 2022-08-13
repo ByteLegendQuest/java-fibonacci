@@ -4,6 +4,8 @@ public class Challenge {
     public static void main(String[] args) {
         System.out.println(fibonacci(1));
         System.out.println(fibonacci(1));
+        System.out.println(fibonacci(2));
+        System.out.println(fibonacci(3));
     }
 
     // fibonacci(0) = 0
@@ -13,6 +15,8 @@ public class Challenge {
     // ...
     // fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)
     public static int fibonacci(int n) {
-        return 0;
+        if (n < 2) {
+            return n;
+        }
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
-}
