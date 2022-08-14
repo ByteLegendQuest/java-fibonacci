@@ -15,7 +15,7 @@ public class Challenge {
     // fibonacci(3) = 2
     // ...
     // fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)
-    private final static Map<Integer, Integer> fiboCache = new HashMap<>() {{
+    private final static Map<Integer, Integer> fiboCache = new HashMap<Integer, Integer>() {{
 		put(0, 0);
 		put(1, 1);
 	}};
