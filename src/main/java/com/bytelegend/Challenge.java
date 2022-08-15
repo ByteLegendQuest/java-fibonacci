@@ -19,6 +19,6 @@ public class Challenge {
         if (1 == n) {
             return 1;
         }
-        return 0;
+        return fibonacci(n - 2) + fibonacci(n - 1);
     }
 }
