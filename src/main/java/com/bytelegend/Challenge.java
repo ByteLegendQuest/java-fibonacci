@@ -12,11 +12,12 @@ public class Challenge {
     // fibonacci(3) = 2
     // ...
     // fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)
-    public static int fibonacci(int n) {
-               if(n < 2){
-            return n;
-        }else {
-            return  n + fibonacci(n - 1);
-        }
+ public static int fibonacci(int n) {
+     if(n < 2){
+        return  n;
+     }else{
+         return  fibonacci(n - 1) + fibonacci( n - 2);
+     }
+
     }
 }
