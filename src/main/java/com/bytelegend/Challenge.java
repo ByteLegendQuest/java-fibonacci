@@ -12,7 +12,7 @@ public class Challenge {
     // fibonacci(3) = 2
     // ...
     // fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)
-    public int fibonacci(int n) {
+    public static int fibonacci(int n) {
         if (n <= 0) {
             return 0;
         } else if (n == 1) {
